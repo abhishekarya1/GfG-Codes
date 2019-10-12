@@ -1,20 +1,15 @@
-// Program to segregate zeroes using Lomuto's Partitioning O(n)
+// Program to segregate zeroes in O(n) time and O(1) space using Count Swap Method
 #include<iostream>
 
 using namespace std;
 
 void seg_zero(int* arr, int n)
 {
-	int i = 0, j = 0;
-	while (j < n)
-	{
-		if (arr[j] != 0)
-		{
-			swap(arr[i], arr[j]);
-			i++;
-		}
+	int count = 0;
 
-		j++;
+	for (int i = 0; i < n; ++i)
+	{
+		if (arr[i] != 0) swap(arr[count++], arr[i]);
 	}
 
 }
@@ -29,7 +24,7 @@ void display(int* arr, int n)
 
 int main()
 {
-	int arr[] = {1, 2, 0, 4, 3, 0, 5, 0};
+	int arr[] = {0, 1, 9, 8, 4, 0, 0, 2, 7, 0, 6, 0, 9};
 	int n = sizeof(arr) / sizeof(arr[0]);
 
 	seg_zero(arr, n);
