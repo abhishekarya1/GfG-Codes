@@ -19,7 +19,7 @@ int circular_binary_search(int* arr, int n, int e)
 			else h = m - 1;
 		}
 
-		if (arr[m] >= arr[l])		// left half is sorted
+		if (arr[m] >= arr[l])		// left half is sorted	// else part
 		{
 			if (e < arr[m] && e >= arr[l]) h = m - 1;
 			else l = m + 1;
