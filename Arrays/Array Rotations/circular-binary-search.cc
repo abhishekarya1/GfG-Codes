@@ -1,4 +1,4 @@
-// Program to serach in a rotated sorted array
+// Program to search in a rotated sorted array - O(log n)
 
 #include<iostream>
 
@@ -19,7 +19,7 @@ int circular_binary_search(int* arr, int n, int e)
 			else h = m - 1;
 		}
 
-		if (arr[m] >= arr[l])		// left half is sorted	// else part
+		else // or if (arr[m] >= arr[l])		// left half is sorted
 		{
 			if (e < arr[m] && e >= arr[l]) h = m - 1;
 			else l = m + 1;
