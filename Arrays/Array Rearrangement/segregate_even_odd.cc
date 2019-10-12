@@ -16,8 +16,8 @@ void segregate(int*arr, int n)
 	int l = 0, h = n - 1;
 	while (l < h)
 	{
-		if (!(arr[l] & 1)) l++;
-		if (arr[h] & 1) h--;
+		if (!(arr[l] & 1)) l++;		// even
+		if (arr[h] & 1) h--;		// odd
 		else
 		{	swap(arr[l], arr[h]);
 			l++;
