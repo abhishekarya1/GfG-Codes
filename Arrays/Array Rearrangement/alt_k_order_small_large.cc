@@ -1,3 +1,6 @@
+// Print the array in the order – \
+smallest number, Largest number, 2nd smallest number, 2nd largest number, 3rd smallest number, 3rd largest number and so on... \
+Time = O(n), Space = O(n)
 #include<iostream>
 #include<algorithm>
 
@@ -19,10 +22,10 @@ void rearrange(int* arr, int n)
 	int i = 0;
 	while (l <= h)
 	{
-		if (i % 2 == 0)
-			temp[i++] = arr[l++];
-		else
+		if (i & 1)
 			temp[i++] = arr[h--];
+		else
+			temp[i++] = arr[l++];
 	}
 
 	display(temp, n);
