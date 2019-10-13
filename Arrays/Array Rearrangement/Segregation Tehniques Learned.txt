@@ -1,9 +1,15 @@
 [Unstable]
-1) Simple 
-	a) Compare ends one-by-one and swap (use if-else) : O(n)
-	b) Compare ends one-by-one and swap (use while) : O(n)
+
+1) Simple : O(n)
+	a) Compare ends one-by-one and swap (if-else / while)
+
 
 [Stable]
+
 2) Lomuto's Partition Scheme : O(n) 
 
 3) Count swap method : O(n)  {Lomuto's Scheme, but fancier}
+
+[Using Segragation]
+
+4) Arranging elements in an alternate fashion (Segregation + Rearrangement)
