@@ -1,0 +1,5 @@
+1) Simple - On a linearly sorted array : O(log n)
+
+2) On a circularly sorted array: O(log n) 
+
+3) Finding number of rotations / minimum element : O(log n)

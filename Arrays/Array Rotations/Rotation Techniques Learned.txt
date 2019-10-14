@@ -1,0 +1,9 @@
+1) Simple
+	a) One-by-one : O(n*k)
+	b) Using auxiliary array : O(k)
+
+2) Fast Print Rotations: O(n) 
+
+3) Reversal Algorithm : O(n)
+
+4) Rotating bits in a number
