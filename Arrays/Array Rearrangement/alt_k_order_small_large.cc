@@ -30,6 +30,7 @@ void rearrange(int* arr, int n)
 
 	display(temp, n);
 	delete []temp;
+	delete temp;  // or temp = NULL;
 }
 
 int main()
