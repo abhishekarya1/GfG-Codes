@@ -1,6 +1,6 @@
 1) Simple
 	a) One-by-one : O(n*k)
-	b) Using auxiliary array : O(k)
+	b) Using auxiliary array : O(n), O(k)
 
 2) Fast Print Rotations: O(n) 
 
