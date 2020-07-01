@@ -1,4 +1,4 @@
-// Left Rotaion by k postions (one-by-one method)
+// Left Rotation by k postions (one-by-one method)
 #include<iostream>
 
 using namespace std;
