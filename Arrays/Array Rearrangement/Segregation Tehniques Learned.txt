@@ -8,7 +8,7 @@
 
 2) Lomuto's Partition Scheme : O(n) 	//stable
 
-3) Count swap method : O(n)  {Lomuto's Scheme, but fancier}	//stable
+3) Count swap method : O(n)  {Exactly same as Lomuto's Scheme, but looks fancier}	//stable
 
 [Using Segragation]
 
