@@ -1,3 +1,5 @@
+// Link : https://www.geeksforgeeks.org/double-first-element-move-zero-end/
+
 // Convert the array in such a way that if next number is a valid number and same as current number, \
 double its value and replace the next number with 0. \
 After the modification, rearrange the array such that all 0s are shifted to the end \
