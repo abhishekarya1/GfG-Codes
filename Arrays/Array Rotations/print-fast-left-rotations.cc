@@ -11,6 +11,7 @@ void print_left_rotation(int* arr, int n, int k)
 	}
 }
 
+//doesn't work
 void print_right_rotation(int* arr, int n, int k)
 {
 	for (int i = n - k; i < 2 * n - k; ++i)
