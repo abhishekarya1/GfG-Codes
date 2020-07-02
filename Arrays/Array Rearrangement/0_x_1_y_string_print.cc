@@ -1,3 +1,9 @@
+// Link : https://www.geeksforgeeks.org/rearrange-binary-string-alternate-x-y-occurrences/
+
+// Given a binary string s and two integers x and y are given. \
+Task is to arrange the given string in such a way so that ‘0’ comes X-time then ‘1’ comes Y-time and so on until one of the ‘0’ or ‘1’ is finished.\
+Then concatenate rest of the string and print the final string.
+
 #include<iostream>
 #include<algorithm>
 #include<string>
