@@ -1,3 +1,5 @@
+// Link : https://www.geeksforgeeks.org/replace-every-element-with-the-greatest-on-right-side/
+
 // Program to replace every element with the greatest element on its right side - Time complexity : O(n)
 #include<iostream>
 

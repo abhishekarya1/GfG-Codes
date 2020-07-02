@@ -11,7 +11,7 @@ void print_left_rotation(int* arr, int n, int k)
 	}
 }
 
-//doesn't work
+// we used the fact that "right rotn by k = left rotn by n-k" below
 void print_right_rotation(int* arr, int n, int k)
 {
 	for (int i = n - k; i < 2 * n - k; ++i)

@@ -1,3 +1,5 @@
+// Link : https://www.geeksforgeeks.org/segregate-0s-and-1s-in-an-array-by-traversing-array-once/
+
 // Program to segregate zeroes in O(n) time and O(1) space using Count Swap Method
 #include<iostream>
 

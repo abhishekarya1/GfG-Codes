@@ -1,3 +1,5 @@
+// Link : https://www.geeksforgeeks.org/segregate-even-and-odd-numbers/
+
 // Program to partition array such that even numbers and odd numbers are segregated - Time Complexity = O(n)
 #include<iostream>
 
