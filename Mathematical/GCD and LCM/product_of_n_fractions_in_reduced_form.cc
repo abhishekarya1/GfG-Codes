@@ -12,23 +12,23 @@ int main()
     cin.tie(NULL);
 
     int n;
-    cin>>n;
+    cin >> n;
     int num[n], den[n];
 
     for (int i = 0; i < n; ++i)
     {
-    	cin>>num[i];
+        cin >> num[i];
     }
 
     for (int i = 0; i < n; ++i)
     {
-    	cin>>den[i];
+        cin >> den[i];
     }
 
-   	int prod = 1, prod2 = 1;
+    int prod = 1, prod2 = 1;
     for (int i = 0; i < n; ++i)
     {
-    	prod = prod * num[i];
+        prod = prod * num[i];
         prod2 = prod2 * den[i];
     }
 
@@ -36,7 +36,7 @@ int main()
     int numAns = prod / gcd;
     int numDen = prod2 / gcd;
 
-    cout<<numAns<<"/"<<numDen;
+    cout << numAns << "/" << numDen;
 
     return 0;
-}						
+}
