@@ -10,7 +10,7 @@ double floatGCD(double a, double b)
 	if (fabs(b) < 0.001)
 		return a;
 
-	return floatGCD(b, a - floor(a / b) * b);
+	return floatGCD(b, a - floor(a / b) * b);		//can use fmod(a, b) too
 }
 
 int main()
