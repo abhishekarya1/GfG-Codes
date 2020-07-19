@@ -9,7 +9,7 @@ void factorSieve(int n, bool* s, int* spf)
 {
 	s[0] = s[1] = false;
 	spf[0] = spf[1] = 1;
-	for (int i = 2; i * i <= n; i++)
+	for (int i = 2; i <= n; i++)
 	{
 		if (s[i])
 		{
