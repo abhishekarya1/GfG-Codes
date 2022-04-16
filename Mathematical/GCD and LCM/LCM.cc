@@ -14,7 +14,7 @@ int LCMbruteforce(int a, int b)
 
     for (int i = larger ;; i += larger)
     {
-        if (larger % smaller == 0)
+        if (i % smaller == 0)
             return i;
     }
 }
