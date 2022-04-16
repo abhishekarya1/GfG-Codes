@@ -27,7 +27,7 @@ int steinGCD(int a, int b)
 
 	// both odd
 	if (a > b) return steinGCD((a - b) >> 1, b);
-	else return steinGCD((b - a) >> 1, a);
+	else return steinGCD(a, (b - a) >> 1);
 
 }
 
